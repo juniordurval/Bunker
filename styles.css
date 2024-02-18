@@ -19,7 +19,8 @@
   /* Imagen principal */
   .imagen-inicial {
     width: 100%; /* Ancho completo */
-    height: 50vh; /* Altura 50% del viewport */
+    height: auto; /* Altura automática */
+    max-height: 100vh; /* Altura máxima 100% del viewport */
     background-repeat: no-repeat; /* No repetir imágenes */
     background-size: contain; /* Ajustar la imagen al contenedor sin deformarla */
     background-position: center; /* Posición central */
