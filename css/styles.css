@@ -1,43 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-
-body {
-    font-family: 'Monoton', cursive;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000; 
+    font-family: 'Monoton', cursive;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #ffc107; /* Color de texto amarillo similar al de la imagen */
-    background-color: #000000; /* Color de fondo negro similar al de la imagen */
+    color: #ffc107;
 }
+
 .imagen-inicial, .imagen-secundaria {
     width: 100%;
-    height: 100vh; /* Esto hace que la imagen tenga el alto de la pantalla */
+    height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
-    background-position: center; /* Esto centra la imagen */
+    background-size: cover;
+    background-position: center;
 }
+
 .imagen-inicial {
     background-image: url('../img/img.jpg');
 }
+
 .imagen-secundaria {
     background-image: url('../img/img2.jpg');
     height: auto;
 }
+
 .contenido {
     width: 100%;
     text-align: center;
 }
+
 .header {
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 .header h1, .header p {
-    color: #ffc107; /* Color de título amarillo similar al de la imagen */
+    color: #ffc107;
 }
+
 .content {
     margin: 20px;
 }
+
 .footer {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
