@@ -9,33 +9,25 @@ body {
 .imagen-inicial {
     width: 100%;
     height: 100vh; /* Esto hace que la imagen tenga el alto de la pantalla */
-    position: relative;
-    overflow: hidden;
+    background-image: url('../img/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
+    background-position: center; /* Esto centra la imagen */
 }
-.imagen-inicial img {
+.contenido {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
 }
 .header {
-    width: 100%;
     padding: 50px;
-    background-color: rgba(248, 249, 250, 0.7); /* Agregamos transparencia al fondo para que la imagen se vea */
-    text-align: center;
+    background-color: #f8f9fa;
 }
 .content {
     margin: 20px;
-    text-align: center;
 }
 .footer {
-    width: 100%;
     padding: 20px;
-    background-color: rgba(248, 249, 250, 0.7); /* Agregamos transparencia al fondo para que la imagen se vea */
-    text-align: center;
+    background-color: #f8f9fa;
     position: fixed;
     bottom: 0;
 }
