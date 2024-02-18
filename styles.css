@@ -16,16 +16,22 @@
     color: #ffc107; /* Color principal del texto */
   }
   
+  /* Contenedor de la imagen principal */
+  .imagen-contenedor {
+    width: 80%; /* Ancho 80% del contenedor principal */
+    max-width: 500px; /* Ancho máximo 500px */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+  }
+  
   /* Imagen principal */
   .imagen-inicial {
-    width: 100%; /* Ancho completo */
+    width: 100%; /* Ancho completo del contenedor */
     height: auto; /* Altura automática */
     max-height: 100vh; /* Altura máxima 100% del viewport */
     background-repeat: no-repeat; /* No repetir imágenes */
     background-size: contain; /* Ajustar la imagen al contenedor sin deformarla */
     background-position: center; /* Posición central */
     background-image: url('../img/img.jpg'); /* Imagen de fondo para `.imagen-inicial` */
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
   }
   
   /* Imagen secundaria */
@@ -40,7 +46,6 @@
     width: 80%; /* Ancho 80% del contenedor principal */
     text-align: center; /* Alineación central del texto */
     margin: 0 auto; /* Margen superior e inferior automático, centrar horizontalmente */
-    max-width: 500px; /* Ancho máximo 500px en dispositivos móviles */
   }
   
   /* Encabezado */
@@ -64,6 +69,10 @@
   
   /* Media queries para ajustar el tamaño de la imagen principal en móviles */
   @media (max-width: 768px) {
+    .imagen-contenedor {
+      width: 100%; /* Ancho completo en móviles */
+    }
+    
     .imagen-inicial {
       height: 75vh; /* Altura 75% del viewport en móviles */
     }
