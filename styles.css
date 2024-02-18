@@ -1,57 +1,57 @@
 * {
+    /* Restablecer estilos por defecto */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: #000000; 
-    font-family: 'Monoton', cursive;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #ffc107;
-}
-
-.imagen-inicial, .imagen-secundaria {
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.imagen-inicial {
-    background-image: url('../img/img.jpg');
-}
-
-.imagen-secundaria {
-    background-image: url('../img/img2.jpg');
-    height: auto;
-}
-
-.contenido {
-    width: 100%;
-    text-align: center;
-}
-
-.header {
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.header h1, .header p {
-    color: #ffc107;
-}
-
-.content {
-    margin: 20px;
-}
-
-.footer {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    bottom: 0;
-}
+  }
+  
+  body {
+    background-color: #000000; /* Color de fondo negro */
+    font-family: 'Monoton', cursive; /* Fuente principal */
+    height: 100vh; /* Altura del viewport */
+    display: flex; /* Contenedor flexible */
+    flex-direction: column; /* Dirección de la columna */
+    align-items: center; /* Alineación horizontal (centro) */
+    color: #ffc107; /* Color principal del texto */
+  }
+  
+  .imagen-inicial {
+    width: 100%; /* Ancho completo */
+    height: 100vh; /* Altura del viewport */
+    background-repeat: no-repeat; /* No repetir imágenes */
+    background-size: cover; /* Cubrir el contenedor */
+    background-position: center; /* Posición central */
+    background-image: url('../img/img.jpg'); /* Imagen de fondo para `.imagen-inicial` */
+  }
+  
+  .imagen-secundaria {
+    width: 50%; /* Ancho del 50% */
+    margin: 0 auto; /* Margen superior e inferior automático, centrar horizontalmente */
+    background-repeat: no-repeat; /* No repetir imágenes */
+    background-size: cover; /* Cubrir el contenedor */
+    background-position: center; /* Posición central */
+    background-image: url('../img/img2.jpg'); /* Imagen de fondo para `.imagen-secundaria` */
+  }
+  
+  .contenido {
+    width: 80%; /* Ancho 80% del contenedor principal */
+    text-align: center; /* Alineación central del texto */
+    margin: 0 auto; /* Margen superior e inferior automático, centrar horizontalmente */
+  }
+  
+  .header {
+    padding: 50px; /* Relleno del encabezado */
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semitransparente */
+  }
+  
+  .header h1, .header p {
+    color: #ffc107; /* Color del texto del encabezado */
+  }
+  
+  .footer {
+    padding: 20px; /* Relleno del pie de página */
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semitransparente */
+    position: fixed; /* Posición fija */
+    bottom: 0; /* Ubicado en la parte inferior */
+  }
+  
