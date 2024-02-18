@@ -8,7 +8,7 @@ body {
     /* Aquí se establece la imagen de fondo */
     background-image: url('../img/img.jpg');
     background-repeat: no-repeat;
-    background-size: contain; /* Esto hace que la imagen se ajuste al tamaño de la pantalla */
+    background-size: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
     background-position: center; /* Esto centra la imagen */
 }
 .header {
