@@ -5,11 +5,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* Aquí se establece la imagen de fondo */
+    background-image: url('../img/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header {
     width: 100%;
     padding: 50px;
-    background-color: #f8f9fa;
+    background-color: rgba(248, 249, 250, 0.7); /* Agregamos transparencia al fondo para que la imagen se vea */
     text-align: center;
 }
 .content {
@@ -19,7 +23,7 @@ body {
 .footer {
     width: 100%;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: rgba(248, 249, 250, 0.7); /* Agregamos transparencia al fondo para que la imagen se vea */
     text-align: center;
     position: fixed;
     bottom: 0;
