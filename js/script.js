@@ -1,8 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-    ajustarImagen();
-});
-
 window.addEventListener('resize', ajustarImagen);
+window.addEventListener('scroll', ajustarImagen);
 
 function ajustarImagen() {
     var imagen = document.querySelector('.imagen-inicial img');
@@ -14,3 +11,5 @@ function ajustarImagen() {
         imagen.style.height = '100%';
     }
 }
+
+ajustarImagen();
