@@ -1,10 +1,11 @@
+/* Restablecer estilos por defecto */
 * {
-    /* Restablecer estilos por defecto */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
+  /* Propiedades generales del body */
   body {
     background-color: #000000; /* Color de fondo negro */
     font-family: 'Monoton', cursive; /* Fuente principal */
@@ -15,6 +16,7 @@
     color: #ffc107; /* Color principal del texto */
   }
   
+  /* Imagen principal */
   .imagen-inicial {
     width: 100%; /* Ancho completo */
     height: 100vh; /* Altura del viewport */
@@ -24,27 +26,32 @@
     background-image: url('../img/img.jpg'); /* Imagen de fondo para `.imagen-inicial` */
   }
   
+  /* Imagen secundaria */
   .imagen-secundaria {
     max-width: 100%; /* Ancho máximo 100% del contenedor */
     height: auto; /* Altura automática */
     margin: 0 auto; /* Centrar horizontalmente */
   }
   
+  /* Contenedor principal del contenido */
   .contenido {
     width: 80%; /* Ancho 80% del contenedor principal */
     text-align: center; /* Alineación central del texto */
     margin: 0 auto; /* Margen superior e inferior automático, centrar horizontalmente */
   }
   
+  /* Encabezado */
   .header {
     padding: 50px; /* Relleno del encabezado */
     background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semitransparente */
   }
   
+  /* Texto del encabezado */
   .header h1, .header p {
     color: #ffc107; /* Color del texto del encabezado */
   }
   
+  /* Pie de página */
   .footer {
     padding: 20px; /* Relleno del pie de página */
     background-color: rgba(0, 0, 0, 0.7); /* Color de fondo semitransparente */
