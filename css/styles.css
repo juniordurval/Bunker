@@ -10,6 +10,7 @@ body {
     color: #ffc107; /* Color de texto amarillo similar al de la imagen */
     background-color: #000000; /* Color de fondo negro similar al de la imagen */
 }
+
 .imagen-inicial {
     position: fixed;
     width: 100%;
@@ -18,22 +19,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
     background-position: center; /* Esto centra la imagen */
+    background-attachment: fixed; /* Esto hace que la imagen no se desplace con el resto de la página */
     z-index: -1;
 }
+
 .contenido {
     width: 100%;
     text-align: center;
 }
+
 .header {
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 .header h1, .header p {
     color: #ffc107; /* Color de título amarillo similar al de la imagen */
 }
+
 .content {
     margin: 20px;
 }
+
 .footer {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
