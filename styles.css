@@ -25,6 +25,7 @@
     background-size: contain; /* Ajustar la imagen al contenedor sin deformarla */
     background-position: center; /* Posición central */
     background-image: url('../img/img.jpg'); /* Imagen de fondo para `.imagen-inicial` */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
   }
   
   /* Imagen secundaria */
@@ -39,6 +40,7 @@
     width: 80%; /* Ancho 80% del contenedor principal */
     text-align: center; /* Alineación central del texto */
     margin: 0 auto; /* Margen superior e inferior automático, centrar horizontalmente */
+    max-width: 500px; /* Ancho máximo 500px en dispositivos móviles */
   }
   
   /* Encabezado */
