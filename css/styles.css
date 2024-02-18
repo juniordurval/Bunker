@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #f8f9fa; /* Color de texto blanco para contrastar con el fondo oscuro */
+    background-color: #343a40; /* Color de fondo oscuro similar al de la imagen */
 }
 .imagen-inicial img {
     display: block;
     width: 100%;
-    height: 100vh; /* Esto hace que la imagen tenga el alto de la pantalla */
-    object-fit: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
+    height: 100vh;
+    object-fit: cover;
 }
 .contenido {
     width: 100%;
@@ -18,14 +22,17 @@ body {
 }
 .header {
     padding: 50px;
-    background-color: #f8f9fa;
+    background-color: rgba(52, 58, 64, 0.7);
+}
+.header h1 {
+    color: #ffc107; /* Color de título amarillo similar al de la imagen */
 }
 .content {
     margin: 20px;
 }
 .footer {
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: rgba(52, 58, 64, 0.7);
     position: fixed;
     bottom: 0;
 }
