@@ -12,20 +12,23 @@ body {
 }
 .imagen-inicial, .imagen-secundaria {
     width: 100%;
-    height: auto;
+    height: 100vh; /* Esto hace que la imagen tenga el alto de la pantalla */
     background-repeat: no-repeat;
     background-size: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
     background-position: center; /* Esto centra la imagen */
 }
 .imagen-inicial {
-    max-height: 100vh;
+    background-image: url('../img/img.jpg');
 }
 .imagen-secundaria {
     background-image: url('../img/img2.jpg');
+    height: auto;
 }
-.header {
+.contenido {
     width: 100%;
     text-align: center;
+}
+.header {
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.7);
 }
