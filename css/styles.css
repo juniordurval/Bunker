@@ -6,13 +6,11 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.imagen-inicial {
+.imagen-inicial img {
+    display: block;
     width: 100%;
     height: 100vh; /* Esto hace que la imagen tenga el alto de la pantalla */
-    background-image: url('../img/img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
-    background-position: center; /* Esto centra la imagen */
+    object-fit: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
 }
 .contenido {
     width: 100%;
