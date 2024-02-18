@@ -19,7 +19,7 @@
   /* Imagen principal */
   .imagen-inicial {
     width: 100%; /* Ancho completo */
-    height: 100vh; /* Altura del viewport */
+    height: 50vh; /* Altura 50% del viewport */
     background-repeat: no-repeat; /* No repetir imágenes */
     background-size: contain; /* Ajustar la imagen al contenedor sin deformarla */
     background-position: center; /* Posición central */
@@ -62,7 +62,7 @@
   /* Media queries para ajustar el tamaño de la imagen principal en móviles */
   @media (max-width: 768px) {
     .imagen-inicial {
-      height: 50vh; /* Altura 50% del viewport en móviles */
+      height: 75vh; /* Altura 75% del viewport en móviles */
     }
   }
   
