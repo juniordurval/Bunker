@@ -67,14 +67,29 @@
     bottom: 0; /* Ubicado en la parte inferior */
   }
   
-  /* Media queries para ajustar el tamaño de la imagen principal en móviles */
+  /* Media queries para ajustar el diseño en móviles */
   @media (max-width: 768px) {
+    /* Ajustes para móviles */
+  
     .imagen-contenedor {
       width: 100%; /* Ancho completo en móviles */
     }
     
     .imagen-inicial {
       height: 75vh; /* Altura 75% del viewport en móviles */
+    }
+    
+    .contenido {
+      width: 90%; /* Ancho 90% en móviles */
+    }
+    
+    .header, .footer {
+      padding: 20px; /* Relleno menor en móviles */
+    }
+    
+    /* Ocultar elementos no esenciales en móviles */
+    .imagen-secundaria {
+      display: none;
     }
   }
   
