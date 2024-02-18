@@ -12,21 +12,20 @@ body {
     height: 100vh; /* Esto hace que la imagen tenga el alto de la pantalla */
     object-fit: cover; /* Esto hace que la imagen cubra todo el espacio disponible */
 }
-.header {
+.contenido {
     width: 100%;
+    text-align: center;
+}
+.header {
     padding: 50px;
     background-color: #f8f9fa;
-    text-align: center;
 }
 .content {
     margin: 20px;
-    text-align: center;
 }
 .footer {
-    width: 100%;
     padding: 20px;
     background-color: #f8f9fa;
-    text-align: center;
     position: fixed;
     bottom: 0;
 }
