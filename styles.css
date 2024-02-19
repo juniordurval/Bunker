@@ -55,10 +55,11 @@
   
   /* Imagen secundaria */
   .imagen-secundaria {
-    max-width: 100%; /* Ancho máximo 100% */
+    max-width: 500px; /* Ancho máximo */
     height: auto; /* Altura automática */
     margin: 0 auto; /* Centrar la imagen horizontalmente */
     margin-top: 20px; /* Margen superior de 20px */
+    display: block; /* Mostrar la imagen */
   }
   
   /* Pie de página */
@@ -98,25 +99,26 @@
     }
   }
   
-    /* Estilos adicionales para el contenido */
-    .informacion {
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.7);
-     }
-    
-    .informacion h2, .informacion h3, .informacion p {
-        color: #ffc107;
-    }
-    
-    .informacion p {
-        margin-bottom: 10px;
-    }
-    
-    .contacto {
-        margin-top: 20px;
-    }
-    
-    /* Estilos adicionales para el pie de página */
-    .footer p {
-        margin: 0;
-    }
+  /* Estilos adicionales para el contenido */
+  .informacion {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .informacion h2, .informacion h3, .informacion p {
+    color: #ffc107;
+  }
+  
+  .informacion p {
+    margin-bottom: 10px;
+  }
+  
+  .contacto {
+    margin-top: 20px;
+  }
+  
+  /* Estilos adicionales para el pie de página */
+  .footer p {
+    margin: 0;
+  }
+  
