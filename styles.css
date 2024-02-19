@@ -21,7 +21,7 @@
     width: 80%; /* Ancho 80% del contenedor principal */
     max-width: 500px; /* Ancho máximo 500px */
     margin: 0 auto; /* Centrar el contenedor horizontalmente */
-    border: 1px solid #ffc107; /* Borde de 1px con color #ffc107 */
+    margin-top: 20px; /* Margen superior de 20px */
   }
   
   /* Imagen principal */
@@ -32,14 +32,7 @@
     background-repeat: no-repeat; /* No repetir imágenes */
     background-size: contain; /* Ajustar la imagen al contenedor sin deformarla */
     background-position: center; /* Posición central */
-    background-image: url('../img/img.jpg'); /* Imagen de fondo para `.imagen-inicial` */
-  }
-  
-  /* Imagen secundaria */
-  .imagen-secundaria {
-    max-width: 100%; /* Ancho máximo 100% del contenedor */
-    height: auto; /* Altura automática */
-    margin: 0 auto; /* Centrar horizontalmente */
+    background-image: url('../img/img1.jpg'); /* Imagen de fondo para `.imagen-inicial` */
   }
   
   /* Contenedor principal del contenido */
@@ -60,6 +53,14 @@
     color: #ffc107; /* Color del texto del encabezado */
   }
   
+  /* Imagen secundaria */
+  .imagen-secundaria {
+    max-width: 100%; /* Ancho máximo 100% */
+    height: auto; /* Altura automática */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 20px; /* Margen superior de 20px */
+  }
+  
   /* Pie de página */
   .footer {
     padding: 20px; /* Relleno del pie de página */
@@ -75,25 +76,49 @@
     .imagen-contenedor {
       width: 100%; /* Ancho completo en móviles */
     }
-    
+  
     .imagen-inicial {
       height: auto; /* Eliminar altura fija */
       max-width: 100%; /* Ancho máximo 100% */
       max-height: 100vh; /* Altura máxima 100% del viewport */
       object-fit: contain; /* Ajustar la imagen al contenedor sin deformarla */
     }
-    
+  
     .contenido {
       width: 90%; /* Ancho 90% en móviles */
     }
-    
+  
     .header, .footer {
       padding: 20px; /* Relleno menor en móviles */
     }
-    
+  
     /* Ocultar elementos no esenciales en móviles */
     .imagen-secundaria {
       display: none;
     }
-  }
+    }
+
+    /* Estilos adicionales para el contenido */
+    .informacion {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .informacion h2, .informacion h3, .informacion p {
+    color: #ffc107;
+    }
+
+    .informacion p {
+    margin-bottom: 10px;
+    }
+
+    .contacto {
+    margin-top: 20px;
+    }
+
+    /* Estilos adicionales para el pie de página */
+    .footer p {
+    margin: 0;
+    }
+    
   
