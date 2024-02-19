@@ -105,6 +105,13 @@
     background-color: rgba(0, 0, 0, 0.7);
   }
   
+  /* Estilos adicionales para el contenido */
+
+.informacion {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+ç  
   .informacion h2, .informacion h3, .informacion p {
     color: #ffc107;
   }
@@ -118,7 +125,8 @@
   }
   
   /* Estilos adicionales para el pie de página */
+  
   .footer p {
     margin: 0;
   }
-  
+
