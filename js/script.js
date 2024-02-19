@@ -1,3 +1,23 @@
+const imagen = document.querySelector('.imagen-contenedor');
+
+function animarHumo() {
+  let y = -100;
+
+  const animacion = () => {
+    y += 0.5;
+    imagen.style.transform = `translateY(${y}%)`;
+
+    if (y < 0) {
+      requestAnimationFrame(animacion);
+    }
+  };
+
+  requestAnimationFrame(animacion);
+}
+
+animarHumo();
+
+// Función para ajustar la imagen al tamaño de la ventana
 window.addEventListener('resize', ajustarImagen);
 
 function ajustarImagen() {
