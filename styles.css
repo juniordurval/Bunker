@@ -21,6 +21,7 @@
     width: 80%; /* Ancho 80% del contenedor principal */
     max-width: 500px; /* Ancho máximo 500px */
     margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    border: 1px solid #ffc107; /* Borde de 1px con color #ffc107 */
   }
   
   /* Imagen principal */
@@ -76,7 +77,10 @@
     }
     
     .imagen-inicial {
-      height: 75vh; /* Altura 75% del viewport en móviles */
+      height: auto; /* Eliminar altura fija */
+      max-width: 100%; /* Ancho máximo 100% */
+      max-height: 100vh; /* Altura máxima 100% del viewport */
+      object-fit: contain; /* Ajustar la imagen al contenedor sin deformarla */
     }
     
     .contenido {
