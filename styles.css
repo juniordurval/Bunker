@@ -57,7 +57,7 @@
   .imagen-secundaria {
     max-width: 100%; /* Ancho máximo 100% */
     height: auto; /* Altura automática */
-    margin: 0 auto; /* Centrar horizontalmente */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
     margin-top: 20px; /* Margen superior de 20px */
   }
   
@@ -96,29 +96,27 @@
     .imagen-secundaria {
       display: none;
     }
-    }
-
+  }
+  
     /* Estilos adicionales para el contenido */
     .informacion {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    }
-
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+     }
+    
     .informacion h2, .informacion h3, .informacion p {
-    color: #ffc107;
-    }
-
-    .informacion p {
-    margin-bottom: 10px;
-    }
-
-    .contacto {
-    margin-top: 20px;
-    }
-
-    /* Estilos adicionales para el pie de página */
-    .footer p {
-    margin: 0;
+        color: #ffc107;
     }
     
-  
+    .informacion p {
+        margin-bottom: 10px;
+    }
+    
+    .contacto {
+        margin-top: 20px;
+    }
+    
+    /* Estilos adicionales para el pie de página */
+    .footer p {
+        margin: 0;
+    }
